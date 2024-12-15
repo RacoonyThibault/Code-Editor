@@ -1,11 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html", // Page d'entrée pour Vite
-    "./src/**/*.{js,jsx,ts,tsx}", // Tous les fichiers dans src
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {}, // Pour personnaliser le thème
+    extend: {},
   },
   plugins: [],
 };
